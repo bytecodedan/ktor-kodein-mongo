@@ -5,7 +5,7 @@ This repository serves as a sandbox for testing [Kotlin](https://kotlinlang.org/
 * [Ktor](https://ktor.io/) - an asynchronous application framework
 * [Kodein DI](https://kodein.org/) - a pure Kotlin dependency injection library
 * [Kmongo](https://litote.org/kmongo/) - a pure Kotlin library for work with MongoDB (can be used with both sync and async drivers)
-
+* [MongoDB](https://www.mongodb.com/) - a NoSQL document-oriented database.
 # The application
 
 The application provides a RESTful API for fetching random jokes of the ever-so-popular 80-90s action star, _Chuck Norris_. The jokes
