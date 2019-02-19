@@ -20,7 +20,7 @@ are initially loaded from [The Internet Chuck Norris Database](https://www.icndb
 
 The application, once started, can be access via http://localhost:8080. 
 
-1 - Create ADMIN user
+> 1 - Create ADMIN user
 ```
 POST http://localhost:8080/users
 {
@@ -29,7 +29,7 @@ POST http://localhost:8080/users
   "role": "ADMIN"
 }
 ```
-2 - Get auth token
+> 2 - Get auth token
 ```
 POST http://localhost:8080/auth/token
 {
@@ -42,7 +42,7 @@ POST http://localhost:8080/auth/token
   "token": "eyJ0eXAiOiJKV1QiLCJhbGc..."  
 }
 ```
-3 - Load database with joke data from external resource.
+> 3 - Load database with joke data from external resource.
 ```
 POST http://localhost:8080/app/init -H "Authorization: {token}"
 ```
